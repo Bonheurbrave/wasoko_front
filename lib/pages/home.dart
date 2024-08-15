@@ -12,7 +12,10 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      appBar: AppBar(title:Text("Ahabanza"),),
+      appBar: AppBar(
+        title:Text("Ahabanza"),
+        backgroundColor: Colors.blue,
+      ),
       body: GridView.builder(
           padding: EdgeInsets.all(16.0),
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -44,7 +47,7 @@ class CategoryCard extends StatelessWidget {
         children: <Widget>[
           Expanded(
             child: Image.asset(
-              'assets/images/category${index + 1}.png',
+              'images/cat${index + 1}.jpeg',
               fit: BoxFit.cover,
             ),
           ),
