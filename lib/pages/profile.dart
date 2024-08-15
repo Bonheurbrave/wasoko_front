@@ -6,7 +6,7 @@ class ProfilePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Text('Profile'),
+        title: Text('Umwirondoro'),
       ),
       body: Padding(
         padding: EdgeInsets.all(16.0),

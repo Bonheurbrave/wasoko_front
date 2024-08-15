@@ -35,6 +35,18 @@ class _HomeState extends State<Home> {
 
 class CategoryCard extends StatelessWidget {
   final int index;
+  var categories  = [
+    "ibinyobwa",
+    "impapuro z'isuku",
+    "umunyu",
+    "amasukari",
+    "ibisembuye",
+    "amafu",
+    "amasabune",
+    "electronic",
+    "ibikoresho",
+    "amavuta"
+  ];
 
   CategoryCard({required this.index});
 
@@ -53,7 +65,7 @@ class CategoryCard extends StatelessWidget {
           ),
           SizedBox(height: 8),
           Text(
-            'Category ${index + 1}',
+            '${categories[index]}',
             style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
           ),
         ],
