@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tt/pages/homepage.dart';
 
-
 class IntroPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
